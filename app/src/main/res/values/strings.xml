@@ -2,5 +2,5 @@
     <string name="app_name">LoginScreenUsingDataBinding</string>
     <string name="password">Password</string>
     <string name="button">Login</string>
-    <string name="userid">UserId</string>
+    <string name="userid">Email</string>
 </resources>
