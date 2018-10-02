@@ -4,6 +4,7 @@ import com.example.ashutosh.loginscreenusingdatabinding.BR;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
+import android.support.annotation.NonNull;
 
 public class User extends BaseObservable {
     private String email;
@@ -41,4 +42,9 @@ public class User extends BaseObservable {
 
     }
 
+    @NonNull
+    @Override
+    public String toString() {
+        return "{\n" +"\t"+ "\"username\" : " + email + ",\n"+"\t" + "\"password\" : " + password+"\n}";
+    }
 }

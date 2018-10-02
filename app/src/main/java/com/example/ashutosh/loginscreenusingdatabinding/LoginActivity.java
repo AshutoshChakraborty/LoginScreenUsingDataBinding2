@@ -13,6 +13,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityLoginBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_login);
         binding.setUser(new User());
+        binding.setHandler(new ClickHandler());
 
     }
 }
